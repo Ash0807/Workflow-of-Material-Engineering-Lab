@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sample Recorded Data</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <table>
+            <tr>
+                <td>
+                    <form autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="SerialNo">Serial.No</label>
+                            <input type="text" name="SerialNo" id="SerialNo">
+                        </div>
+                        <div>
+                            <label for="DateofReceipt">Date of Receipt</label>
+                            <input type="date" name="DateofReceipt" id="DateofReceipt">
+                        </div>
+                        <div>
+                            <label for="DateofReportIssue">Date of Report Issue </label>
+                            <input type="date" name="DateofReportIssue" id="DateofReportIssue">
+                        </div>
+                        <div>
+                            <label for="LTRNo">LTR.No</label>
+                            <input type="number" name="LTRNo" id="LTRNo">
+                        </div>
+                        <div>
+                            <label for="PartDescription">Part Description</label>
+                            <input type="text" name="PartDescription" id="PartDescription">
+                        </div>
+                        <div>
+                            <label for="SupplierName">Supplier Name</label>
+                            <input type="text" name="SupplierName" id="SupplierName">
+                        </div>
+                        <div>
+                            <label for="PartNo">Part.No</label>
+                            <input type="number" name="PartNo" id="PartNo">
+                        </div>
+                        <div>
+                            <label for="CustomerName">Customer Name</label>
+                            <input type="text" name="CustomerName" id="CustomerName">
+                        </div>
+                        <div>
+                            <label for="Receivedby">Received by</label>
+                            <input type="text" name="Receivedby" id="Receivedby">
+                        </div>
+                        <div>
+                            <label for="Verifiedby">Verified by</label>
+                            <input type="text" name="Verifiedby" id="Verifiedby">
+                        </div>
+                        <div>
+                            <label for="ReportNo">Report.No</label>
+                            <input type="text" name="ReportNo" id="ReportNo">
+                        </div>
+                        <div>
+                            <label for="UrlNo">URL.No</label>
+                            <input type="text" name="UrlNo" id="UrlNo">
+                        </div>
+                        <div class="form_action--button">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="table-container">
+        <table class="list" id="storeList">
+            <thead>
+                <tr>
+                    <th>Serial.No</th>
+                    <th>Date of Receipt</th>
+                    <th>Date of Report Issue</th>
+                    <th>LTR.NO</th>
+                    <th>Part Description</th>
+                    <th>Supplier Name</th>
+                    <th>Part.No</th>
+                    <th>Customer Name</th>
+                    <th>Received by</th>
+                    <th>Verified by</th>
+                    <th>Report.No</th>
+                    <th>URL.No</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
